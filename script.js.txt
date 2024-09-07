@@ -1,0 +1,4 @@
+// Smooth scroll to the "About" section when "Know More" button is clicked
+function scrollToSection() {
+  document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+}
